@@ -1,8 +1,8 @@
 
 
 //Firestore baðlantýsý için ekle
-string credentialPath = @"C:\Users\uozal\source\repos\FirestoreTryingAspConncet\firestoretryingaspnetconnect-firebase-adminsdk-rin4o-38eba02c35.json";
-Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialPath);
+string credentialPath = @"C:\Users\uozal\source\repos\YOUR JSON FILE HERE.json";
+Environment.SetEnvironmentVariable("xxxx", credentialPath);
 
 
 var builder = WebApplication.CreateBuilder(args);
