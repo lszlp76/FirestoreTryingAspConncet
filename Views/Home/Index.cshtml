@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Employee>
+
+
+<div class="text-center">
+
+    <h1 class="display-4">Welcome</h1>
+    <h2>FireStore Data Connection</h2>
+   
+<table class="table table-bordered">
+    <thead>
+
+        <th>Name</th>
+        <th>Surname</th>
+       <th>Age</th>
+    </thead>
+    <tbody>
+                @foreach ( var emp in Model)
+                {
+                    <tr>
+                        <td>@emp.Name</td>
+                        <td>@emp.Surname</td>
+                        <td>@emp.Age</td>
+                    </tr>
+
+                }
+               
+
+
+
+    </tbody>
+   
+</table>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
